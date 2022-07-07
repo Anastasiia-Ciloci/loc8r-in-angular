@@ -19,6 +19,8 @@ MEAN stack app
 
 - Steps
 ```
+$ express
+$ express --css=less --view=hbs --git
 $ express --view=pug --git
 $ npm install
 $ DEBUG=loc8r-in-angular:* npm start
