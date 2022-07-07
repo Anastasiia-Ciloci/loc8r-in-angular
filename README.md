@@ -16,3 +16,11 @@ MEAN stack app
     
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+- Steps
+```
+$ express --view=pug --git
+$ npm install
+$ DEBUG=loc8r-in-angular:* npm start
+```
+result ```loc8r:server Listening on port 3000 +0ms```
