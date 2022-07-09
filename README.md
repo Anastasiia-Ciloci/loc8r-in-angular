@@ -39,5 +39,8 @@ $ nodemon
 -deploy to heroku
 `heroku --version `
 `heroku login`
+-commit all changes and push to heroku
+`heroku create`
+`git push heroku master`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
