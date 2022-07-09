@@ -28,11 +28,16 @@ $ DEBUG=loc8r-in-angular:* npm start
 
 result `loc8r:server Listening on port 3000 +0ms`
 
--iinstall nodemon
+-install nodemon
 
 ```
 $ npm install -g nodemon
 $ nodemon
 ```
+
+-setup server, controllers, models.
+-deploy to heroku
+`heroku --version `
+`heroku login`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
