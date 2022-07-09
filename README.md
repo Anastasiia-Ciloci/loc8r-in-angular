@@ -41,6 +41,6 @@ $ nodemon
 `heroku login`
 -commit all changes and push to heroku
 `heroku create`
-`git push heroku master`
+`git push heroku main`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
