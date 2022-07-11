@@ -4,8 +4,9 @@ MEAN stack app
 
 ## Roadmap
 
-- [ ] build static site
-  - [ ] Figure out the layout
+- [x] Build static site
+  - [x] Figure out the layout
+  - [x] Set up the routes
 - [ ] Design the data model that reflects the requirements
   - [ ] Difine a data model
   - [ ] Create database to work with model
