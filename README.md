@@ -7,11 +7,11 @@ MEAN stack app
 - [x] Build static site
   - [x] Figure out the layout
   - [x] Set up the routes
-- [ ] Design the data model that reflects the requirements
+- [x] Design the data model that reflects the requirements
   - [ ] Difine a data model
   - [ ] Create database to work with model
-- [ ] Build your own data API
-  - [ ] RESTful API
+- [x] Build your own data API
+  - [x] RESTful API
 - [ ] Hook the DB into the application
 - [ ] Embellish the app
   - [ ] Auth
@@ -43,5 +43,21 @@ $ nodemon
 -commit all changes and push to heroku
 `heroku create`
 `git push heroku main`
+
+-setting the controllers and vews
+
+ Name
+ Address
+ Rating
+ Opening hours
+ Facilities
+ Location map
+ Reviews, each with
+    – Rating
+    – Reviewer name
+    – Review date
+    – Review text
+    – Button to add a new review
+    – Text to set the context of the page
 
 <p align="right">(<a href="#top">back to top</a>)</p>
