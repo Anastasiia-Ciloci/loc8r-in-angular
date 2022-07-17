@@ -53,11 +53,13 @@ $ nodemon
  Facilities
  Location map
  Reviews, each with
-    – Rating
-    – Reviewer name
-    – Review date
-    – Review text
-    – Button to add a new review
-    – Text to set the context of the page
+– Rating
+– Reviewer name
+– Review date
+– Review text
+– Button to add a new review
+– Text to set the context of the page
+
+-Adding Mongodb and mongoose.
 
 <p align="right">(<a href="#top">back to top</a>)</p>

@@ -3,6 +3,8 @@ var express = require("express");
 var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
+const favicon = require("serve-favicon");
+require("./server/models/db");
 
 var indexRouter = require("./server/routes/index");
 var usersRouter = require("./server/routes/users");
