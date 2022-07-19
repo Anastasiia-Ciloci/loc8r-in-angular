@@ -8,7 +8,7 @@ MEAN stack app
   - [x] Figure out the layout
   - [x] Set up the routes
 - [x] Design the data model that reflects the requirements
-  - [ ] Difine a data model
+  - [x] Difine a data model
   - [ ] Create database to work with model
 - [x] Build your own data API
   - [x] RESTful API
@@ -61,5 +61,6 @@ $ nodemon
 – Text to set the context of the page
 
 -Adding Mongodb and mongoose.
+-schema and models
 
 <p align="right">(<a href="#top">back to top</a>)</p>

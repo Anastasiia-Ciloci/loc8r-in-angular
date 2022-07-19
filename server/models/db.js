@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 const dbURI = "mongodb://localhost/Loc8r";
 mongoose.connect(dbURI, { useNewUrlParser: true });
 const readLine = require("readline");
+require("./locations");
 if (process.platform === "win32") {
   const rl = readLine.createInterface({
     input: process.stdin,
