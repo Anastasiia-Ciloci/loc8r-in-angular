@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+
 const openingTimeSchema = new mongoose.Schema({
   days: {
     type: String,
@@ -11,6 +12,7 @@ const openingTimeSchema = new mongoose.Schema({
     required: true,
   },
 });
+
 const reviewSchema = new mongoose.Schema({
   author: String,
   rating: {
@@ -25,6 +27,7 @@ const reviewSchema = new mongoose.Schema({
     default: Date.now,
   },
 });
+
 const locationSchema = new mongoose.Schema({
   name: {
     type: String,
@@ -47,3 +50,5 @@ const locationSchema = new mongoose.Schema({
 });
 
 locationSchema.index({ coords: "2dsphere" });
+
+mongoose.model("Location", locationSchema);
